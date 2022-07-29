@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* Fredoka One */
+}
+
+/* ////////////////////// */
+/* navbar section */
+/* ////////////////////// */
+
+nav {
+  display: flex;
+  height: 15vh;
+  padding: 3rem 5rem;
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  padding: 0 2rem;
+  font-size: 20px;
+  color: #1f1f1f;
+  font-weight: 100;
+}
+
+.active-item {
+  color: #fe5e35;
+}
+
+nav img {
+  width: max-content;
+}
+
+/* ////////////////////// */
+/* hero section */
+/* ////////////////////// */
+
+.intro-section {
+  height: 85vh;
+  padding: 0 4rem 5rem 5rem;
+  display: flex;
+}
+
+.left-section {
+  width: 55vw;
+  padding-top: 4rem;
+}
+
+.left-section > h3 {
+  font-size: 35px;
+  font-weight: 100;
+}
+
+.left-section > h3 > img {
+  width: 50px;
+  margin-left: 20px;
+}
+
+.left-section > h1 {
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.sub-headlines {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+
+.sub-headline {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  margin-top: 1.5rem;
+}
+
+.sub-headline img {
+  height: 26px;
+  background-color: #fe5e35;
+  border-radius: 20px;
+  padding: 5px;
+  margin-right: 1rem;
+}
+
+.text {
+  color: #c6c6c6;
+  font-size: 16px;
+  margin: 4rem 7rem 0 0;
+}
+
+.action-btns {
+  margin-top: 3rem;
+}
+
+.action-btn {
+  font-size: 22px;
+  background-color: #fe5e35;
+  border: none;
+  border-radius: 35px;
+  color: #fff;
+  padding: 10px 24px;
+  margin-right: 2rem;
+}
+
+/* ////////////////////////// */
+/* hero section - right */
+/* ////////////////////////// */
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headphone-div {
+  position: relative;
+  width: 35vw;
+  display: flex;
+  justify-content: center;
+}
+
+.discount-content + img {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 35rem;
+}
+
+.discount {
+  width: 170px;
+  margin-right: auto;
+  margin-top: 20rem;
+}
+
+.discount-content {
+  height: fit-content;
+  position: absolute;
+  color: #fff;
+  left: 35px;
+  top: 22.5rem;
+  text-align: center;
+}
+
+.discount-content > h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.dot {
+  height: 22px;
+  width: 22px;
+  border-radius: 15px;
+  background-color: #c6c6c6;
+  margin: 0 15px;
+}
+
+.yellow-dot {
+  background-color: #edc126;
+}
+.tomato-dot {
+  background-color: #de4839;
+}
+.black-dot {
+  background-color: #000;
+}
+.right-section > button {
+  width: fit-content;
+  margin: auto;
+}
