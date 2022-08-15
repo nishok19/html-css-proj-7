@@ -91,7 +91,7 @@ nav img {
 }
 
 .text {
-  color: #c6c6c6;
+  color: #999999;
   font-size: 16px;
   margin: 4rem 7rem 0 0;
 }
@@ -181,4 +181,188 @@ nav img {
 .right-section > button {
   width: fit-content;
   margin: auto;
+}
+
+/* ///////////////////////////////////////////////////////// */
+
+@media (max-width: 480px) {
+  nav {
+    padding: 20px;
+  }
+  .nav-items {
+    display: none;
+  }
+
+  .nav-logo {
+    width: 70px;
+  }
+
+  .intro-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .left-section {
+    width: 90vw;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-section > h3 {
+    font-size: 18px;
+  }
+
+  .left-section > h3 > img {
+    width: 40px;
+  }
+
+  .left-section > h1 {
+    font-size: 32px;
+  }
+
+  .sub-headlines {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .sub-headline {
+    margin-top: 16px;
+    font-size: 18px;
+  }
+
+  .text {
+    margin: 50px;
+    text-align: center;
+  }
+
+  .action-btns {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .action-btn {
+    font-size: 16px;
+  }
+
+  .headphone-div {
+    width: 90vw;
+  }
+
+  .right-section {
+    margin-top: 1rem;
+  }
+
+  .discount-content + img {
+    width: 400px;
+  }
+
+  .discount {
+    width: 160px;
+    margin-top: 14rem;
+  }
+
+  .discount-content {
+    top: 16rem;
+  }
+
+  .action-btn {
+    margin-top: 2rem !important;
+  }
+}
+
+@media (max-width: 1040px) and (min-width: 480px) {
+  nav {
+    padding: 40px;
+  }
+  .nav-items {
+    display: none;
+  }
+
+  .nav-logo {
+    width: 70px;
+  }
+
+  .intro-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .nav-actions {
+    width: 300px;
+  }
+
+  .left-section {
+    width: 90vw;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-section > h3 {
+    font-size: 24px;
+  }
+
+  .left-section > h3 > img {
+    width: 40px;
+  }
+
+  .left-section > h1 {
+    font-size: 44px;
+  }
+
+  .sub-headlines {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .sub-headline {
+    margin-top: 16px;
+    font-size: 18px;
+  }
+
+  .text {
+    margin: 50px;
+    text-align: center;
+  }
+
+  .action-btns {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .action-btn {
+    font-size: 16px;
+  }
+
+  .headphone-div {
+    width: 90vw;
+  }
+
+  .right-section {
+    margin-top: 1rem;
+  }
+
+  .discount-content + img {
+    width: 400px;
+  }
+
+  .discount {
+    width: 160px;
+    margin-top: 16rem;
+    margin-left: 10rem;
+  }
+
+  .discount-content {
+    top: 18rem;
+    margin-left: 10rem;
+  }
+
+  .action-btn {
+    margin-top: 2rem !important;
+  }
 }
