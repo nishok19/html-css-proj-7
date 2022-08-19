@@ -7,7 +7,7 @@
 In the seventh project of HTML and CSS class I have learnt mostly about positioning in CSS which is used mostly in alignment of the image and the text. Also done some colored circle shapes with plain div.
 Also made the site fully mobile responsive using media queries.
 
-[Live Demo of the Project](https://nishok-html-css-proj7.netlify.app/)
+## [Live Demo of the Project](https://nishok-html-css-proj7.netlify.app/)
 
 ## Efforts
 
